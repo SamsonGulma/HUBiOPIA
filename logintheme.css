@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255,255,255,0.5));
+    z-index: 5
+}
+
+.window{
+    background-color: ;
+    z-index: 3;
+    height: 500px;
+    width: 700px;
+    position: absolute;
+    top: 12%;
+    left: 23%;
+}
+
+.username{ 
+    width: 200px;
+    background: transparent;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-left-color: transparent;
+}
+
+.username :hover{
+    border-style: none;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+}
+
+.password{
+    border: none;
+    width: 200px;
+}
